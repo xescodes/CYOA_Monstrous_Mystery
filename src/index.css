@@ -1,0 +1,53 @@
+@tailwind  base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-200;
+  font-family: 'Times New Roman', serif;
+}
+
+.mermaid-container {
+  @apply my-4 w-full flex justify-center;
+}
+
+.choice-btn {
+  @apply px-4 py-2 mt-2 text-gray-200 bg-gray-800 hover:bg-gray-700 
+         border border-gray-700 rounded-md transition-colors duration-200;
+}
+
+.restart-btn {
+  @apply px-4 py-2 mt-8 text-gray-200 bg-purple-900 hover:bg-purple-800 
+         border border-purple-800 rounded-md transition-colors duration-200;
+}
+
+.riddle-input {
+  @apply px-4 py-2 mt-2 text-gray-900 bg-gray-200 border border-gray-300 
+         rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500;
+}
+
+.submit-btn {
+  @apply px-4 py-2 ml-2 text-gray-200 bg-purple-900 hover:bg-purple-800 
+         border border-purple-800 rounded-md transition-colors duration-200;
+}
+
+.game-container {
+  @apply max-w-4xl mx-auto p-6 bg-gray-800 rounded-lg shadow-xl mt-10 mb-10;
+}
+
+.story-text {
+  @apply text-lg leading-relaxed my-4;
+}
+
+.story-image {
+  @apply w-full h-64 object-cover rounded-lg shadow-lg my-4;
+}
+
+.title {
+  @apply text-4xl font-bold text-center text-purple-400 mb-6;
+}
+
+.subtitle {
+  @apply text-2xl font-semibold text-purple-300 mb-4;
+}
+ 
